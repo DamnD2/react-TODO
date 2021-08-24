@@ -1,0 +1,62 @@
+.edit-button, .remove-button, .save-button{
+	width: 35px;
+	height: 35px;
+
+	&:hover{
+		cursor: pointer;
+	}
+}
+
+.todo-button, .completed-button, .add, .modal-close, .modal-save{
+	font-size: 15px;
+	padding: 6px;
+	cursor: pointer;
+	border-radius: 5px;
+	font-weight: bold;
+	background-color: #fff;
+}
+
+.completed-button{
+	color: #0eb90e;
+	border: 1px solid #0eb90e;
+
+	&:active{
+		background-color: #0eb90e42;
+	}
+}
+
+.todo-button{
+	color: #4b4bf7;
+	border: 1px solid #4b4bf7;
+
+	&:active{
+		background-color: #4b4bf741;
+	}
+}
+
+.add{
+	color: #4bb8f7;
+	border: 1px solid #4bb8f7;
+
+	&:active{
+		background-color: #4bb8f746;
+	}
+}
+
+.modal-close{
+	color: #ad2614;
+	border: 1px solid #ad2614;
+
+	&:active{
+		background-color: #ad26141f;
+	}
+}
+
+.modal-save{
+	color: #079145;
+	border: 1px solid #079145;
+
+	&:active{
+		background-color: #07914536;
+	}
+}

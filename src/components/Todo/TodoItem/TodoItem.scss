@@ -1,0 +1,37 @@
+.todo__item{
+	border-bottom: 1px solid #9c9c9c;
+	padding: 10px;
+	display: flex;
+	text-align: center;
+
+	&-id{
+		width: 10%;
+	}
+
+	&-title{
+		max-width: 60%;
+		width: 100%;
+		word-wrap: break-word;
+		font-size: 20px;
+	}
+
+	&-status{
+		max-width: 14%;
+		width: 100%;
+	}
+
+	&-edit{
+		max-width: 8%;
+		width: 100%;
+	}
+
+	&-save{
+		max-width: 8%;
+		width: 100%;
+	}
+
+	&-remove{
+		max-width: 8%;
+		width: 100%;
+	}
+}

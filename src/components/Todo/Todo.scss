@@ -1,0 +1,37 @@
+.todo{
+	list-style: none;
+	font-size: 20px;
+
+	&-title{
+		border-bottom: 2px solid #000;
+		font-weight: bold;
+		padding: 10px;
+		display: flex;
+		text-align: center;
+	}
+
+	&__title-id{
+		width: 10%;
+	}
+
+	&__title-title{
+		width: 60%;
+	}
+
+	&__title-status{
+		width: 14%;
+	}
+
+	&__title-edit{
+		width: 8%;
+	}
+
+	&__title-remove{
+		width: 8%;
+	}
+}
+
+.add-task{
+	display: block;
+	text-align: end;
+}
